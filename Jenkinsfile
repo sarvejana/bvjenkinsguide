@@ -4,7 +4,7 @@ pipeline {
     stage('BUILD') {
       post {
         failure {
-          echo 'This build has failed. See logs for details.'
+          echo 'This build is failed. See logs for details.'
         }
 
       }
